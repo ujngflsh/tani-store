@@ -1,16 +1,74 @@
-# React + Vite
+@'
+# 🌾 tani-store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Toko pertanian online yang simpel dan enak dipakai — cari benih, pupuk, alat tani, sampai kebutuhan irigasi, semua ada dalam satu tempat.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [tani-store-ujngflsh.vercel.app](https://tani-store-ujngflsh.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Home](screenshots/01-home.png)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Kenapa tani-store?
 
-## Expanding the ESLint configuration
+Pertanian itu tulang punggung negeri ini, tapi belanja kebutuhan taninya masih sering ribet — harus ke toko fisik, stok gak jelas, harga beda-beda. **tani-store** hadir sebagai solusi: katalog lengkap, harga transparan, varian jelas, dan checkout langsung dari rumah.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project ini juga jadi portofolio saya untuk menunjukkan cara membangun e-commerce modern pakai React — dari nol, tanpa framework UI berat, fokus ke pengalaman pengguna.
+
+---
+
+## ✨ Fitur
+
+- 🏠 **Landing page** dengan hero, kategori, dan produk unggulan
+- 🔍 **Search live** — ketik langsung muncul, ada highlight kata kunci
+- 📂 **Filter kategori** — Benih, Pupuk, Alat Tani, Pestisida, Irigasi
+- 🛍️ **Detail produk** dengan varian (kemasan, ukuran, dll)
+- 🛒 **Keranjang** — ubah qty, hapus item, total harga real-time
+- 📱 **Responsive** — nyaman di HP maupun desktop
+
+---
+
+## 📸 Preview
+
+### 🏠 Home
+![Home](screenshots/01-home.png)
+
+### 🛍️ Semua Produk
+![Products](screenshots/02-products.png)
+
+### 📦 Detail Produk
+![Detail](screenshots/03-detail.png)
+
+### 🛒 Keranjang
+![Cart](screenshots/04-cart.png)
+
+### 📱 Mobile
+![Mobile](screenshots/05-mobile.png)
+
+---
+
+## 🛠️ Dibangun Dengan
+
+React 19 · Vite 7 · React Router 7 · Lucide React · Plain CSS (CSS Variables) · Context API
+
+---
+
+## 🚀 Jalankan di Lokal
+
+```bash
+git clone https://github.com/ujngflsh/tani-store.git
+cd tani-store
+npm install
+npm run dev
+
+Buka http://localhost:5173
+
+📁 Struktur
+text
+src/
+├── components/    # Navbar, Hero, Footer, dll
+├── pages/         # Home, Products, ProductDetail, Cart
+├── data/          # products.js
+├── App.jsx
+├── main.jsx
+└── index.css
