@@ -39,12 +39,6 @@ Project ini juga jadi portofolio saya untuk menunjukkan cara membangun e-commerc
 ### 📦 Detail Produk
 ![Detail](screenshots/03-detail.png)
 
-### 🛒 Keranjang
-![Cart](screenshots/04-cart.png)
-
-### 📱 Mobile
-![Mobile](screenshots/05-mobile.png)
-
 ---
 
 ## 🛠️ Dibangun Dengan
@@ -60,15 +54,31 @@ git clone https://github.com/ujngflsh/tani-store.git
 cd tani-store
 npm install
 npm run dev
-
 Buka http://localhost:5173
+
 
 📁 Struktur
 text
 src/
 ├── components/    # Navbar, Hero, Footer, dll
 ├── pages/         # Home, Products, ProductDetail, Cart
-├── data/          # products.js
+├── data/         # products.js
 ├── App.jsx
 ├── main.jsx
 └── index.css
+👨‍💻 Tentang Saya
+Halo, saya Ujang — seorang web developer yang suka bikin antarmuka yang bersih dan gampang dipakai. Project ini saya bangun sebagai bagian dari portofolio untuk menunjukkan kemampuan React, state management, dan responsive design.
+
+Kalau ada project atau kolaborasi, jangan ragu hubungi saya:
+
+📧 akangujang30@gmail.com
+
+💼 LinkedIn
+
+🐙 GitHub
+
+📱 WhatsApp
+
+📄 License
+MIT © 2025 Ujang
+'@ | Set-Content -Encoding UTF8 README.md
